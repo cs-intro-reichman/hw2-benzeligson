@@ -23,7 +23,7 @@ public class Cheers {
                 aOrAn = "a";
             }
             System.out.println("Give me " + aOrAn + 
-            " : " + letter + ": " + letter + "!");
+            " " + letter + ": " + letter + "!");
             letterCounter++;
         }
         System.out.println("What does that spell?");

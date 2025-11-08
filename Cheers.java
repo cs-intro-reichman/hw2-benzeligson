@@ -32,5 +32,6 @@ public class Cheers {
                 System.out.println(chantWord + "!!!");
                 repetitionsCounter++;
         }
+        System.out.println(" ");
         }
 }

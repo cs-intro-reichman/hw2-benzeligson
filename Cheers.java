@@ -18,12 +18,12 @@ public class Cheers {
         while (chantWord.length() > letterCounter) {
             letter = "" + chantWord.charAt(letterCounter);
             if (specialLetters.contains(letter)){
-                aOrAn = "an";
+                aOrAn = "an ";
             } else { 
-                aOrAn = "a";
+                aOrAn = "a  ";
             }
             System.out.println("Give me " + aOrAn + 
-            " " + letter + ": " + letter + "!");
+            letter + ": " + letter + "!");
             letterCounter++;
         }
         System.out.println("What does that spell?");
@@ -32,6 +32,5 @@ public class Cheers {
                 System.out.println(chantWord + "!!!");
                 repetitionsCounter++;
         }
-        System.out.println(" ");
         }
 }
